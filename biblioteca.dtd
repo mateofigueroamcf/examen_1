@@ -1,0 +1,16 @@
+<!ELEMENT biblioteca (libro+)>
+<!ATTLIST biblioteca nombre CDATA
+                    centro CDATA
+                    img CDATA>
+<!ELEMENT libro (titulo, autor, editorial, precio)>
+<!ATTLIST libro codPais(ESP|FRA|ITA|ALE)#FIXED 'ESP' #REQUIRED
+                date CDATA (1990 | 2022) #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (apellido, nombre)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST autor foto CDATA
+                apellido CDATA clave NMTOKEN "[a-z]"
+                cedula ID #REQUIRED>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="biblio">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="biblio" type="infoAutor" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+    <xs:complexType name="infoAutor">
+        <xs:complexContent>
+            <xs:extension base="infoAutor">
+                <xs:sequence>
+                    <xs:element name="ciudad" type="xs:string"/>
+                    <xs:element name="pais" type="xs:string"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+</xs:schema>

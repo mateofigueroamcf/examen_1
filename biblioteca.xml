@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "biblioteca.dtd">
+<!--<biblio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="$LOCAL_SCHEMA$"
+        xsi:noNamespaceSchemaLocation="biblioteca.xsd">-->
+<biblioteca nombre="Tomás Carrasquilla" centro="poblado" img="https://scontent.feoh3-1.fna.fbcdn.net/v/t39.308086/301153716_452836323563323_5646586074448291472_n.jpg?_nc_cat=109ccb=17_nc_sid=e3f864_nc_ohc=NJclP7e_OQQAX_2m_XS_nc_ht=scontent.feoh31.fnaoh=00_AfDDK2o_SMQOTDtW7eyKc9Q37ymhK47EY01IVu272zTZcgoe=63697818">
+        <libro codPais="ESP">
+            <titulo>TCP/IP Illustrated</titulo>
+            <autor foto="https://crearmiempresa.es/wp-content/uploads/2015/07/frases-de-steve-jobs.jpg"
+                    cedula="56543">
+                <apellido>stevens</apellido>
+                <nombre>W.</nombre>
+            </autor>
+            <editorial>Addison-Wesley</editorial>
+            <precio>65.95</precio>
+        </libro>
+    <libro codPais="ESP" >
+        <titulo>Advanced Programming for Unix environment</titulo>
+        <autor cedula="3423534">
+            <apellido>stevens</apellido>
+            <nombre>W.</nombre>
+        </autor>
+        <editorial>Addison-Wesley</editorial>
+        <precio>65.95</precio>
+    </libro>
+    <libro>
+        <titulo>Data on the Web</titulo>
+        <autor cedula="32432">
+            <apellido>gnabry</apellido>
+            <nombre>Serge</nombre>
+        </autor>
+        <autor cedula="3243242">
+            <apellido>buneman</apellido>
+            <nombre>Peter</nombre>
+        </autor>
+        <autor cedula="1231231">
+            <apellido>suciu</apellido>
+            <nombre>Dan</nombre>
+        </autor>
+        <editorial>Morgan Kaufmann editorials</editorial>
+        <precio>39.95</precio>
+    </libro>
+    <libro>
+        <titulo> Economics of Technology for Digital TV</titulo>
+        <autor cedula="2143435">
+            <apellido>gerbarg</apellido>
+            <nombre>Darcy</nombre>
+        </autor>
+        <editorial>Kluwer Academic editorials</editorial>
+        <precio>129.95</precio>
+    </libro>
+</biblioteca>
